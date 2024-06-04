@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2fc6a372-20da-4805-bd39-9f175a447b32" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vercelignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/head.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/AboutSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ContactSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ExperiencesSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/HeroSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ProjectsSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/SlideUp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/particles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/hello.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/QA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/arcs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/email2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/email3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/email4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/email5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/headshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/jai_korisal_resume.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/melody.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stock2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stock3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stock4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stock5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stock6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stock7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/swift.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/transmodus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/zybooks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/analytics.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/mdx.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/nav.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/particles.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/contact/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/[slug]/header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/[slug]/mdx.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/[slug]/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/[slug]/view.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/article.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/access.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/chronark.com.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/envshare.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/highstorm.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/planetfall.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/qstash.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/terraform-provider-vercel.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/unkey.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-auth-analytics.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-cli.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-core-analytics.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-edge-flags.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-kafka.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-qstash-sdk.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-ratelimit-analytics.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-ratelimit.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-react-ui.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-redis.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-web-analytics.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/zod-bird.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contentlayer.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mdx-components.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/incr.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/CalSans-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/og.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/planetfall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rome.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/mdx.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/mouse.ts" beforeDir="false" afterPath="$PROJECT_DIR$/util/mouse.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2hDaFEU0RMcvYtqy78wAHqSe85Z" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jai Korisal/PycharmProjects/EmailCustomerService&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Jai Korisal\\PycharmProjects\\portfolio-jaikorisal\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jai Korisal\PycharmProjects\nextjs-portfolio-jaikorisal\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jai Korisal\PycharmProjects\nextjs-portfolio-jaikorisal\styles" />
+      <recent name="C:\Users\Jai Korisal\PycharmProjects\nextjs-portfolio-jaikorisal\components" />
+      <recent name="C:\Users\Jai Korisal\PycharmProjects\nextjs-portfolio-jaikorisal\public" />
+      <recent name="C:\Users\Jai Korisal\PycharmProjects\nextjs-portfolio-jaikorisal\components\public" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
+        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fc6a372-20da-4805-bd39-9f175a447b32" name="Changes" comment="" />
+      <created>1717130996150</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717130996150</updated>
+      <workItem from="1717130997264" duration="927000" />
+      <workItem from="1717131949049" duration="1398000" />
+      <workItem from="1717209712108" duration="8678000" />
+      <workItem from="1717267489433" duration="25676000" />
+      <workItem from="1717298645305" duration="215000" />
+      <workItem from="1717304596520" duration="5309000" />
+      <workItem from="1717451909589" duration="2615000" />
+      <workItem from="1717457154058" duration="9000" />
+      <workItem from="1717457452419" duration="22000" />
+      <workItem from="1717457512493" duration="78000" />
+      <workItem from="1717457647159" duration="13800000" />
+      <workItem from="1717473187882" duration="17000" />
+      <workItem from="1717473313237" duration="217000" />
+      <workItem from="1717473644374" duration="318000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
