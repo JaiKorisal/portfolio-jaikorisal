@@ -24,10 +24,14 @@ const contacts = [
     label: "GitHub",
   },
 ];
+interface ContactSectionProps {
+  className?: string;
+}
 
-const ContactSection = () => {
+
+const ContactSection: React.FC<ContactSectionProps> = ({ className }) => {
   return (
-    <section id="contact" className="relative">
+    <section id="contact" className={className}>
       <h1 className="my-10 text-center font-bold text-4xl">
         Contact Me!
         <hr className="w-10 h-1 mx-auto my-4 bg-yellow-600 border-0 rounded" />

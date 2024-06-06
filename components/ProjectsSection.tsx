@@ -94,7 +94,10 @@ const Slideshow: React.FC<SlideshowProps> = ({ images }) => {
   );
 };
 
-const ProjectsSection: React.FC = () => {
+interface ProjectsSectionProps {
+  className?: string;
+}
+const ProjectsSection: React.FC<ProjectsSectionProps> = ({ className }) => {
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const scrollLeft = () => {
@@ -110,7 +113,7 @@ const ProjectsSection: React.FC = () => {
   };
 
   return (
-    <section id="projects" className="relative">
+    <section id="projects" className={className}>
       <h1 className="my-10 text-center font-bold text-4xl">
         Projects
         <hr className="w-100 h-1 mx-auto my-4 bg-yellow-600 border-0 rounded" />
@@ -118,7 +121,7 @@ const ProjectsSection: React.FC = () => {
 
       <div
         ref={scrollRef}
-        className="flex flex-nowrap overflow-x-auto scrollbar-hide space-x-4 my-12 pb-16"
+        className="flex flex-nowrap overflow-x-auto scrollbar-hide space-x-4 my-12 pb-16 "
       >
         {projects.map((project, idx) => (
           <div key={idx} className="m-4">

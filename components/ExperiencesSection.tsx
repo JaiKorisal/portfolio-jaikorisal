@@ -55,7 +55,11 @@ const experiences = [
   },
 ];
 
-const ExperiencesSection = () => {
+interface ExperiencesSectionProps {
+  className?: string;
+}
+
+const ExperiencesSection: React.FC<ExperiencesSectionProps> = ({ className }) => {
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const scrollLeft = () => {
@@ -71,7 +75,7 @@ const ExperiencesSection = () => {
   };
 
   return (
-    <section id="experiences" className="relative">
+    <section id="experiences" className={className}>
       <h1 className="my-10 text-center font-bold text-4xl">
         Experience
         <hr className="w-100 h-1 mx-auto my-4 bg-yellow-600 border-0 rounded" />

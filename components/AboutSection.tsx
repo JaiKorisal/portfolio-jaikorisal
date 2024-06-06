@@ -23,9 +23,13 @@ const skills = [
   { skill: "Jupyter Notebooks" },
 ]
 
-const AboutSection = () => {
+interface AboutSectionProps {
+  className?: string;
+}
+
+const AboutSection: React.FC<AboutSectionProps> = ({ className }) => {
   return (
-    <section id="about" className="relative min-h-screen w-full">
+    <section id="about"  className={className}>
       <div className="my-24 max-w-full pb-24 md:pt-3200 md:pb-64">
         <h1 className="text-center font-bold text-3xl md:text-100xl">
           About Me
@@ -40,7 +44,7 @@ const AboutSection = () => {
             <p className="text-lg md:text-xl">
               Hi, my name is Jainivash Korisal and I am a{" "}
               <span className="font-bold">{"dedicated "}</span> and
-              <span className="font-bold">{" goal-oriented student"}</span>
+              <span className="font-bold">{" goal-oriented student "}</span>
               residing in Los Angeles, CA.
             </p>
             <br />
