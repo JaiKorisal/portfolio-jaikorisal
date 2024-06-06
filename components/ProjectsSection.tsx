@@ -9,69 +9,56 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 type Project = {
   name: string;
   description: string;
-  images: string[];
-  github: string;
-  link: string;
+  images: string | string[];
+  github?: string;
+  link?: string;
 };
 
-
-const projects = [
+const projects: Project[] = [
   {
     name: "Stock Predictor - May 2024",
     description:
       "Programming language with built-in HSM support, akin to C/C++, complies in C++ and designed for JPL software engineers.",
     images: ["/stock.png", "/stock2.png", "/stock3.png","/stock7.png", "/stock5.png", "/stock6.png"],
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+    github: "https://github.com/JaiKorisal/StockPredictor",
   },
   {
     name: "Email Customer Service - May 2024",
     description:
       "Programming language with built-in HSM support, akin to C/C++, complies in C++ and designed for JPL software engineers.",
     images:  ["/email.png", "/email2.png", "/email3.png", "/email4.png", "/email5.png"],
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+    github: "https://github.com/JaiKorisal/EmailCustomerService",
   },
   {
     name: "CSUN ARCS Proteus - December 2023",
     description:
       "Programming language with built-in HSM support, akin to C/C++, complies in C++ and designed for JPL software engineers.",
     images: "/arcs.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
   },
   {
     name: "Transit Reservation System -June 2023",
     description: "Created a Java application integrating real-time Google Maps APIs to optimize transit reservations based on time and cost efficiency\n" +
         "while storing essential information in a MySQL database.",
     images: "/transmodus.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
   },
   {
     name: "Tic Tac Toe - January 2023",
     description:
       "Built an interactive iOS Tic Tac Toe game using Swift.",
     images: "/swift.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
   },
   {
     name: "Melody - November 2022",
     description:
       "Created a music simulator in Eclipse using Java, allowing users to input musical notes and generating audible beats.",
     images: "/melody.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
   },
   {
-    name: "Bank Account - April 2022,",
+    name: "Bank Account - April 2022",
     description:
       "Developed a Java-based bank account simulation in JGRASP, featuring a user interface that presents multiple options and features such\n" +
         "as deposit and withdrawal.",
     images: "/bank.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
   },
 ]
 
@@ -144,18 +131,22 @@ const ProjectsSection: React.FC = () => {
                     {project.description}
                   </p>
                   <div className="flex flex-row align-bottom space-x-4">
-                    <Link href={project.github} target="_blank">
-                      <BsGithub
-                        size={24}
-                        className="hover:-translate-y-1 transition-transform cursor-pointer"
-                      />
-                    </Link>
-                    <Link href={project.link} target="_blank">
-                      <BsArrowUpRightSquare
-                        size={24}
-                        className="hover:-translate-y-1 transition-transform cursor-pointer"
-                      />
-                    </Link>
+                    {project.github && (
+                      <Link href={project.github} target="_blank">
+                        <BsGithub
+                          size={24}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer"
+                        />
+                      </Link>
+                    )}
+                    {project.link && (
+                      <Link href={project.link} target="_blank">
+                        <BsArrowUpRightSquare
+                          size={24}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer"
+                        />
+                      </Link>
+                    )}
                   </div>
                 </div>
               </div>
