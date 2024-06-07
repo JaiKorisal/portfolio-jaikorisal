@@ -18,14 +18,14 @@ const projects: Project[] = [
   {
     name: "Stock Predictor - May 2024",
     description:
-      "Programming language with built-in HSM support, akin to C/C++, complies in C++ and designed for JPL software engineers.",
+      "Developed and implemented a stock market prediction platform using machine learning algorithms and APIs to forecast market prices using ReactJS, Next.js, Python, Keras, scikit-learn, and Jupyter.",
     images: ["/stock.png", "/stock2.png", "/stock3.png","/stock7.png", "/stock5.png", "/stock6.png"],
     github: "https://github.com/JaiKorisal/StockPredictor",
   },
   {
     name: "Email Customer Service - May 2024",
     description:
-      "Programming language with built-in HSM support, akin to C/C++, complies in C++ and designed for JPL software engineers.",
+      "Developed an email management system for customer service that automates email assignments, tracks conversations, and allows agents to manage customer interactions using Python, CSS/HTML, and MySQL.",
     images:  ["/email.png", "/email2.png", "/email3.png", "/email4.png", "/email5.png"],
     github: "https://github.com/JaiKorisal/EmailCustomerService",
   },
