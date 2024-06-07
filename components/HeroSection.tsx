@@ -41,7 +41,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ className }) => {
     <section id="home" className={className}>
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
-          <Image src="/headshot.png" alt="" width={325} height={325} className="rounded-full shadow-2xl" />
+          <Image src="/headshot.png" priority  alt="" width={325} height={325} className="rounded-full shadow-2xl" style={{ width: 'auto', height: 'auto' }} />
         </div>
         <div className="md:mt-2 md:w-3/5">
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Jay Korisal!</h1>

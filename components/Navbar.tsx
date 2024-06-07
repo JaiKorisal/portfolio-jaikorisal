@@ -1,12 +1,14 @@
 'use client'
-import React, { useEffect } from "react";
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll/modules";
 import { usePathname } from "next/navigation";
 import { useTheme } from "next-themes";
-import { FaRegLightbulb, FaLightbulb  } from "react-icons/fa6";
+import dynamic from 'next/dynamic';
 import { IoMdMenu, IoMdClose } from "react-icons/io";
 import Particles from "@/components/particles";
+
+const FaRegLightbulb = dynamic(() => import('react-icons/fa').then(mod => mod.FaRegLightbulb), { ssr: false });
+const FaLightbulb = dynamic(() => import('react-icons/fa').then(mod => mod.FaLightbulb), { ssr: false });
 
 interface NavItem {
   label: string;
@@ -41,17 +43,20 @@ export default function Navbar() {
   const currentTheme = theme === "system" ? systemTheme : theme;
   const pathname = usePathname();
   const [navbar, setNavbar] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    setMounted(true);
+
     function toggleMenu() {
       const menu = document.querySelector(".menu-links");
       const icon = document.querySelector(".hamburger-icon");
 
       // Null check for menu and icon
       if (menu && icon) {
-      menu.classList.toggle("open");
-      icon.classList.toggle("open");
-        }
+        menu.classList.toggle("open");
+        icon.classList.toggle("open");
+      }
     }
 
     // Cleanup function to remove event listener
@@ -60,8 +65,10 @@ export default function Navbar() {
     };
   }, []); // Empty dependency array ensures this effect only runs once
 
+  if (!mounted) return null; // Ensure the component is only rendered on the client
+
   return (
-    <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600">
+    <header className="w-full mx-auto px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600">
       <Particles
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={100}
@@ -70,7 +77,7 @@ export default function Navbar() {
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Link to="home">
-              <div className="container flex items-center space-x-2  cursor-pointer">
+              <div className="container flex items-center space-x-2 cursor-pointer">
                 <h2 className="text-2xl font-bold">Jainivash Korisal</h2>
               </div>
             </Link>
@@ -98,7 +105,7 @@ export default function Navbar() {
                     key={item.label}
                     to={item.page}
                     className={
-                      "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100 cursor-pointer"
+                      "block lg:inline-block text-neutral-900 hover:text-neutral-500 dark:text-neutral-100 cursor-pointer"
                     }
                     activeClass="active"
                     spy={true}
@@ -116,14 +123,14 @@ export default function Navbar() {
                   onClick={() => setTheme("light")}
                   className="bg-slate-100 p-2 rounded-xl"
                 >
-                  <FaRegLightbulb  size={25} color="black" />
+                  <FaRegLightbulb size={25} color="black" />
                 </button>
               ) : (
                 <button
                   onClick={() => setTheme("dark")}
                   className="bg-slate-100 p-2 rounded-xl"
                 >
-                  <FaLightbulb  size={25} />
+                  <FaLightbulb size={25} />
                 </button>
               )}
             </div>
