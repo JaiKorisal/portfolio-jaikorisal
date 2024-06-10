@@ -20,10 +20,10 @@ const HeroSection: React.FC<HeroSectionProps> = ({ className }) => {
   //  setActiveSection(section);
   //};
 
-  const handleResumeDownload = () => {
+  const handleResumeView = () => {
     const link = document.createElement('a');
-    link.href = './public/jai_korisal_resume.pdf';
-    link.download = "Jai_Korisal_Resume.pdf";
+    link.href = '/jai_korisal_resume.pdf';
+    link.target = "_blank";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -51,7 +51,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ className }) => {
             at California State University of Northridge, based in Los Angeles, CA.
           </p>
           <div className="flex flex-row space-x-4 mt-4">
-            <button className="hover:-translate-y-1 transition-transformtext-neutral-100 font-semibold px-6 py-3 bg-yellow-600 rounded shadow hover:bg-teal-700" onClick={handleResumeDownload}>
+            <button className="hover:-translate-y-1 transition-transformtext-neutral-100 font-semibold px-6 py-3 bg-yellow-600 rounded shadow hover:bg-teal-700" onClick={handleResumeView}>
               Download Resume
             </button>
             <a href="https://www.linkedin.com/in/jainivash-korisal/" rel="noreferrer" target="_blank" className="hover:-translate-y-1 transition-transformtext-black hover:text-gray-600 flex items-center">
