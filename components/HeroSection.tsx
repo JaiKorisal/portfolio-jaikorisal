@@ -22,7 +22,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ className }) => {
 
   const handleResumeView = () => {
     const link = document.createElement('a');
-    link.href = '/jai_korisal_resume.pdf';
+    link.href = '/Jai_Korisal_resume(1).pdf';
     link.target = "_blank";
     document.body.appendChild(link);
     link.click();
