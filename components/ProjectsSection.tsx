@@ -34,12 +34,14 @@ const projects: Project[] = [
     description:
       "Programming language with built-in HSM support, akin to C/C++, complies in C++ and designed for JPL software engineers.",
     images: "/arcs.png",
+    link: "https://arcs.center/"
   },
   {
     name: "Transit Reservation System -June 2023",
     description: "Created a Java application integrating real-time Google Maps APIs to optimize transit reservations based on time and cost efficiency\n" +
         "while storing essential information in a MySQL database.",
     images: "/transmodus.png",
+    github: "https://github.com/JaiKorisal/TransModus",
   },
   {
     name: "Tic Tac Toe - January 2023",
