@@ -6,7 +6,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const experiences = [
   {
-    role: "Support Representative",
+    role: "Support Engineer",
     name: "ZyBooks",
     date: "July 2022 - Present",
     place: "Los Angeles, CA",
@@ -37,7 +37,7 @@ const experiences = [
     image: "/QA.png",
   },
   {
-    role: "Full Stack Developer",
+    role: "Full Stack Developer - Intern",
     name: "MSquareTechnologies.Inc",
     date: "July 2023 - September 2023",
     place: "Philadelphia, PA",
