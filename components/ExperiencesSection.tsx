@@ -11,12 +11,12 @@ const experiences = [
     date: "July 2022 - Present",
     place: "Los Angeles, CA",
     description:
-      "Handled 3000+ tickets through problem-solving skills and commitment to customer satisfaction. \n" +
-      "Addressed upwards of 10 reported bugs every 5-8 minutes within zyBooks content, leveraging expertise in HTML, " +
-        "Java, and Python to ensure a high-quality user experience.\n" +
-      "Collaborated with team members to solve complex bugs and user tickets, resulting in a 30% increase in first-time ticket resolutions and a " +
-        "20% reduction in average ticket resolution time.\n" +
-      "Technical Skills: HTML, JAVA, Python",
+      "Implemented automated tools and streamlined triage processes, reducing average ticket resolution time by 12% \n" +
+      "• Leveraged expertise in HTML, Java, and Python to swiftly address and fix bugs within zyBooks content, " +
+        "improving content accuracy\n" +
+      "Collaborated with team members to solve complex bugs and user tickets, created macros in Zendesk " +
+        "responses to user needs, resulting in a 10% increase in first-time ticket resolutions. \n" +
+      "Technical Skills: HTML, JAVA, Python, C/C++, AWS, Zendesk",
     image: "/zybooks.png",
   },
   {
@@ -25,13 +25,14 @@ const experiences = [
     date: "Jan 2024 - May 2024",
     place: "Los Angeles, CA",
     description:
-      "Black Box stress testing the Beta version of Enders Gate Regression testing and created reproducible cases to submit to the development team\n" +
+      "QA Testing - Conducted black box stress testing on the Enders Gate code base, identifying over 150 reproducible cases " +
+      "and submitting detailed reports to the dev team, resulting in the resolution of 18% of critical bugs within two weeks. \n " +
       "Marks Automation Script - Developed a Python script that automated tasks from Baselight data, replacing four manual positions, " +
-        "reducing processing time by 80%, logging data for analysis, and exporting CSV" +
+        "reducing processing time by 20%, logging data for analysis, and exporting CSV" +
       "to XLS with previews to Frame. IO.\n" +
       "QA Script - Created a Python script that automated the population and" +
       "reporting of a QA database, mirroring global testing workflows, reducing" +
-      "report generation time by 70%, and generating detailed operational" +
+      "report generation time by 13%, and generating detailed operational" +
       "reports, including listing all blockers, repeatable, date, and specific user\n" +
       "Technical Skills: Python, MongoDB, ffmpeg, Frame.Io",
     image: "/QA.png",
@@ -42,7 +43,7 @@ const experiences = [
     date: "July 2023 - September 2023",
     place: "Philadelphia, PA",
     description:
-      "Integrated the OpenAI API into custom software, serving over 1000" +
+      "Integrated the OpenAI API into custom software, serving over 1000 " +
       "college students, by utilizing Python, React-JavaScript/ TypeScript," +
       "and NodeJS.\n" +
       "Developed and implemented a robust query database and data processing" +
