@@ -7,12 +7,13 @@ import Particles from "@/components/particles";
 const skills = [
   { skill: "JAVA" },
   { skill: "Python" },
-  { skill: "Swift" },
-  { skill: "C/C++" },
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
+  { skill: "Swift" },
+  { skill: "C/C++" },
+  { skill: "C#" },
   { skill: "React -Hooks/Router" },
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
@@ -20,7 +21,8 @@ const skills = [
   { skill: "GitHub" },
   { skill: "MySQL"},
   { skill: "MongoDb"},
-  { skill: "Jupyter Notebooks" },
+  { skill: "AWS"},
+  { skill: "Zendesk"},
 ]
 
 interface AboutSectionProps {
@@ -49,23 +51,19 @@ const AboutSection: React.FC<AboutSectionProps> = ({ className }) => {
             </p>
             <br />
             <p className="text-lg md:text-xl">
-              Currently pursuing a Bachelor of Science degree in Computer Science at California State University, Northridge,
-              I anticipate graduating in 2025.
+              I am currently a student at California State University, Northridge, pursuing a B.S. in Computer Science,
+              with a strong passion for coding and software development. I am actively seeking opportunities in related fields to further hone my technical skills.
             </p>
             <br />
             <p className="text-lg md:text-xl">
-              Beyond my academic pursuits, I maintain a fervent commitment to personal growth and exploration.
-              Engaged in various endeavors such as reading, playing volleyball, snowboarding, and traveling,
-              I continually seek to broaden my horizons and cultivate new experiences.
+              I thrive on solving complex problems and am deeply interested in programming and software engineering.
+              I am also an enthusiastic learner, always eager to explore new technologies and methodologies.
             </p>
             <br />
             <p className="text-lg md:text-xl">
-              Moreover, I am deeply {" "}
-              <span className="font-bold text-green-500">
-                 passionate about technology,
-               </span>{" "}
-              ,particularly in exploring artificial intelligence, data analytics, and cybersecurity fields.
-              Actively seeking opportunities to develop skills and expertise in these areas, I am driven by a relentless pursuit of innovation and excellence.🙂
+              Through my experiences in college, life, and internships, I’ve been able to grow my skill set significantly.
+              These opportunities have helped me develop expertise in languages like Python, Java, C/C++, and JavaScript/TypeScript, as well as in frameworks like React and AWS.
+              I look forward to continuously learning, implementing, and polishing these skills in any opportunity I receive.🙂
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">

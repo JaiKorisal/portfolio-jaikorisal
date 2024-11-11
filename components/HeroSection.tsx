@@ -46,9 +46,9 @@ const HeroSection: React.FC<HeroSectionProps> = ({ className }) => {
         <div className="md:mt-2 md:w-3/5">
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Jay Korisal!</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&#39;m a{" "}
-            <span className="font-semibold text-yellow-600">Student{" "}</span>
-            at California State University of Northridge, based in Los Angeles, CA.
+            CS
+            <span className="font-semibold text-yellow-600"> @{" "}</span>
+            California State University of Northridge, based in Los Angeles, CA.
           </p>
           <div className="flex flex-row space-x-4 mt-4">
             <button className="hover:-translate-y-1 transition-transformtext-neutral-100 font-semibold px-6 py-3 bg-yellow-600 rounded shadow hover:bg-teal-700" onClick={handleResumeView}>

@@ -18,14 +18,16 @@ const projects: Project[] = [
   {
     name: "Stock Predictor - May 2024",
     description:
-      "Developed and implemented a stock market prediction platform using machine learning algorithms and APIs to forecast market prices using ReactJS, Next.js, Python, Keras, scikit-learn, and Jupyter.",
+      " Developed a stock market analyzing platform utilizing ReactJS and Python (Flask), incorporating machine learning" +
+        "algorithms like RBF/SVM and APIs such as Yahoo Finance to forecast stock prices",
     images: ["/stock.png", "/stock2.png", "/stock3.png","/stock7.png", "/stock5.png", "/stock6.png"],
     github: "https://github.com/JaiKorisal/StockPredictor",
   },
   {
     name: "Email Customer Service - May 2024",
     description:
-      "Developed an email management system for customer service that automates email assignments, tracks conversations, and allows agents to manage customer interactions using Python, CSS/HTML, and MySQL.",
+      "Developed an email management system using Python, CSS/HTML, and MySQL that automates assignments," +
+        "tracks conversations, and enables agents to manage customer interactions",
     images:  ["/email.png", "/email2.png", "/email3.png", "/email4.png", "/email5.png"],
     github: "https://github.com/JaiKorisal/EmailCustomerService",
   },

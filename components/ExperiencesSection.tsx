@@ -11,11 +11,11 @@ const experiences = [
     date: "July 2022 - Present",
     place: "Los Angeles, CA",
     description:
-      "Implemented automated tools and streamlined triage processes, reducing average ticket resolution time by 12% \n" +
-      "• Leveraged expertise in HTML, Java, and Python to swiftly address and fix bugs within zyBooks content, " +
-        "improving content accuracy\n" +
+      " Implemented automated tools, improved triage processes, leveraging AWS for image processing to enhance content delivery efficiency and reduce average ticket resolution time by 24%.\n" +
+      "Leveraged expertise in HTML, Java, and Python to swiftly address and fix bugs within zyBooks content, " +
+        "using SQL Mode Database queries to analyze user-submitted reports, identify recurring issues, and enhance bug resolution effectiveness, improving content accuracy.\n" +
       "Collaborated with team members to solve complex bugs and user tickets, created macros in Zendesk " +
-        "responses to user needs, resulting in a 10% increase in first-time ticket resolutions. \n" +
+        "responses to user needs, resulting in a 15% increase in first-time ticket resolutions. \n" +
       "Technical Skills: HTML, JAVA, Python, C/C++, AWS, Zendesk",
     image: "/zybooks.png",
   },
@@ -25,15 +25,14 @@ const experiences = [
     date: "Jan 2024 - May 2024",
     place: "Los Angeles, CA",
     description:
-      "QA Testing - Conducted black box stress testing on the Enders Gate code base, identifying over 150 reproducible cases " +
-      "and submitting detailed reports to the dev team, resulting in the resolution of 18% of critical bugs within two weeks. \n " +
-      "Marks Automation Script - Developed a Python script that automated tasks from Baselight data, replacing four manual positions, " +
-        "reducing processing time by 20%, logging data for analysis, and exporting CSV" +
-      "to XLS with previews to Frame. IO.\n" +
-      "QA Script - Created a Python script that automated the population and" +
-      "reporting of a QA database, mirroring global testing workflows, reducing" +
-      "report generation time by 13%, and generating detailed operational" +
-      "reports, including listing all blockers, repeatable, date, and specific user\n" +
+      "Conducted black box stress testing on the Enders Gate code base, identifying over 150 reproducible cases and" +
+        "submitting detailed reports to the dev team, resolving 36% of critical bugs. \n" +
+      "Automated data processing and analysis by developing a Python script to streamline Baselight data tasks," +
+        "achieving a 20% reduction in processing time while facilitating data logging and enabling the export of CSV files to" +
+        "XLS format with picture previews through REST API integration of Frame.Io \n" +
+      "Designed and implemented a Python script for automating QA database population and reporting, effectively" +
+        "mirroring global testing workflows and decreasing report generation time by 30%. Generated comprehensive" +
+        "operational reports that included lists of blockers, repeatable issues, dates, and specific user information.\n" +
       "Technical Skills: Python, MongoDB, ffmpeg, Frame.Io",
     image: "/QA.png",
   },
@@ -43,14 +42,12 @@ const experiences = [
     date: "July 2023 - September 2023",
     place: "Philadelphia, PA",
     description:
-      "Integrated the OpenAI API into custom software, serving over 1000 " +
-      "college students, by utilizing Python, React-JavaScript/ TypeScript," +
-      "and NodeJS.\n" +
-      "Developed and implemented a robust query database and data processing" +
-      "pipeline using MongoDB for seamless response generation by the AI" +
-      "language model.\n" +
-      "Led end-to-end development, UI/UX design, and database management," +
-      "ensuring a user-friendly and secure interface.\n" +
+      "Designed and developed a dynamic application for college students using Python, ReactJS, and NodeJS, integrating" +
+        "the OpenAI API for response generation based on a database. \n" +
+      "Engineered a robust query database and data processing pipeline with MongoDB, ensuring seamless and efficient" +
+        "data handling, which improved response accuracy and system performance. \n" +
+      "Led the end-to-end development process, focusing on UI/UX design and database management, creating a secure" +
+        "and user-friendly interface that served over 1000 students, enhancing accessibility and overall satisfaction.\n" +
       "Technical Skills: Python, React-JavaScript/TypeScript, NodeJS, MongoDB",
     image: "/M.png",
   },
